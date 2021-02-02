@@ -2,7 +2,7 @@ node {
    def mvnHome
    def kubeHome = '/usr/local/bin'
    stage('Source Code') { 
-      git 'https://github.com/BarathArivazhagan/jenkins-ci-cd-pipeline-workshop.git'
+      git 'https://github.com/prakashngithub/jenkins-ci-cd-pipeline-workshop.git'
       mvnHome = tool 'M3'
    }
    stage('Build') {
